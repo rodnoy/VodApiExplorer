@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91FAE212BB5BF2E0079EEEA /* VodApiExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE202BB5BF2E0079EEEA /* VodApiExplorerApp.swift */; };
+		E91FAE232BB5BF2E0079EEEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE222BB5BF2E0079EEEA /* ContentView.swift */; };
+		E91FAE252BB5BF300079EEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91FAE242BB5BF300079EEEA /* Assets.xcassets */; };
+		E91FAE282BB5BF300079EEEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91FAE272BB5BF300079EEEA /* Preview Assets.xcassets */; };
+		E91FAE322BB5BF310079EEEA /* VodApiExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE312BB5BF310079EEEA /* VodApiExplorerTests.swift */; };
+		E91FAE3C2BB5BF310079EEEA /* VodApiExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE3B2BB5BF310079EEEA /* VodApiExplorerUITests.swift */; };
+		E91FAE3E2BB5BF310079EEEA /* VodApiExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE3D2BB5BF310079EEEA /* VodApiExplorerUITestsLaunchTests.swift */; };
+		E91FAE532BB5C0D10079EEEA /* VodClient.docc in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE522BB5C0D10079EEEA /* VodClient.docc */; };
+		E91FAE592BB5C0D10079EEEA /* VodClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */; };
+		E91FAE602BB5C0D10079EEEA /* VodClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE5F2BB5C0D10079EEEA /* VodClientTests.swift */; };
+		E91FAE612BB5C0D10079EEEA /* VodClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E91FAE512BB5C0D10079EEEA /* VodClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E91FAE642BB5C0D10079EEEA /* VodClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */; };
+		E91FAE652BB5C0D10079EEEA /* VodClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E91FAE702BB5C26B0079EEEA /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E91FAE6F2BB5C26B0079EEEA /* OpenAPIRuntime */; };
+		E91FAE732BB5C2B10079EEEA /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = E91FAE722BB5C2B10079EEEA /* OpenAPIURLSession */; };
+		E91FAE772BB5C3950079EEEA /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = E91FAE762BB5C3950079EEEA /* openapi.yaml */; };
+		E91FAE792BB5C3E80079EEEA /* openapi-generator-config.yaml in Resources */ = {isa = PBXBuildFile; fileRef = E91FAE782BB5C3E80079EEEA /* openapi-generator-config.yaml */; };
+		E91FAE7C2BB5C5500079EEEA /* VodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FAE7B2BB5C5500079EEEA /* VodClient.swift */; };
+		E928D19D2BBC424D002DDF38 /* VodClientConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928D19C2BBC424D002DDF38 /* VodClientConstants.swift */; };
+		E928D1A52BBD4379002DDF38 /* UserAgentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928D1A42BBD4379002DDF38 /* UserAgentHelper.swift */; };
+		E9881DCD2BBE99D2005D8E4C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9881DCC2BBE99D2005D8E4C /* Category.swift */; };
+		E9881DD02BBE9B78005D8E4C /* VodDataMappingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9881DCF2BBE9B78005D8E4C /* VodDataMappingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91FAE2E2BB5BF300079EEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91FAE152BB5BF2E0079EEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91FAE1C2BB5BF2E0079EEEA;
+			remoteInfo = VodApiExplorer;
+		};
+		E91FAE382BB5BF310079EEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91FAE152BB5BF2E0079EEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91FAE1C2BB5BF2E0079EEEA;
+			remoteInfo = VodApiExplorer;
+		};
+		E91FAE5A2BB5C0D10079EEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91FAE152BB5BF2E0079EEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91FAE4E2BB5C0D10079EEEA;
+			remoteInfo = VodClient;
+		};
+		E91FAE5C2BB5C0D10079EEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91FAE152BB5BF2E0079EEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91FAE1C2BB5BF2E0079EEEA;
+			remoteInfo = VodApiExplorer;
+		};
+		E91FAE622BB5C0D10079EEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91FAE152BB5BF2E0079EEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91FAE4E2BB5C0D10079EEEA;
+			remoteInfo = VodClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E91FAE692BB5C0D10079EEEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E91FAE652BB5C0D10079EEEA /* VodClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E91FAE1D2BB5BF2E0079EEEA /* VodApiExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VodApiExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91FAE202BB5BF2E0079EEEA /* VodApiExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodApiExplorerApp.swift; sourceTree = "<group>"; };
+		E91FAE222BB5BF2E0079EEEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E91FAE242BB5BF300079EEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91FAE272BB5BF300079EEEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E91FAE2D2BB5BF300079EEEA /* VodApiExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VodApiExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91FAE312BB5BF310079EEEA /* VodApiExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodApiExplorerTests.swift; sourceTree = "<group>"; };
+		E91FAE372BB5BF310079EEEA /* VodApiExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VodApiExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91FAE3B2BB5BF310079EEEA /* VodApiExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodApiExplorerUITests.swift; sourceTree = "<group>"; };
+		E91FAE3D2BB5BF310079EEEA /* VodApiExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodApiExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VodClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91FAE512BB5C0D10079EEEA /* VodClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VodClient.h; sourceTree = "<group>"; };
+		E91FAE522BB5C0D10079EEEA /* VodClient.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VodClient.docc; sourceTree = "<group>"; };
+		E91FAE582BB5C0D10079EEEA /* VodClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VodClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91FAE5F2BB5C0D10079EEEA /* VodClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodClientTests.swift; sourceTree = "<group>"; };
+		E91FAE762BB5C3950079EEEA /* openapi.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
+		E91FAE782BB5C3E80079EEEA /* openapi-generator-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
+		E91FAE7B2BB5C5500079EEEA /* VodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodClient.swift; sourceTree = "<group>"; };
+		E928D19C2BBC424D002DDF38 /* VodClientConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodClientConstants.swift; sourceTree = "<group>"; };
+		E928D1A42BBD4379002DDF38 /* UserAgentHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentHelper.swift; sourceTree = "<group>"; };
+		E9881DCC2BBE99D2005D8E4C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E9881DCF2BBE9B78005D8E4C /* VodDataMappingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodDataMappingService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91FAE1A2BB5BF2E0079EEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE642BB5C0D10079EEEA /* VodClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE2A2BB5BF300079EEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE342BB5BF310079EEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE4C2BB5C0D10079EEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE732BB5C2B10079EEEA /* OpenAPIURLSession in Frameworks */,
+				E91FAE702BB5C26B0079EEEA /* OpenAPIRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE552BB5C0D10079EEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE592BB5C0D10079EEEA /* VodClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91FAE142BB5BF2E0079EEEA = {
+			isa = PBXGroup;
+			children = (
+				E91FAE1F2BB5BF2E0079EEEA /* VodApiExplorer */,
+				E91FAE302BB5BF310079EEEA /* VodApiExplorerTests */,
+				E91FAE3A2BB5BF310079EEEA /* VodApiExplorerUITests */,
+				E91FAE502BB5C0D10079EEEA /* VodClient */,
+				E91FAE5E2BB5C0D10079EEEA /* VodClientTests */,
+				E91FAE1E2BB5BF2E0079EEEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91FAE1E2BB5BF2E0079EEEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE1D2BB5BF2E0079EEEA /* VodApiExplorer.app */,
+				E91FAE2D2BB5BF300079EEEA /* VodApiExplorerTests.xctest */,
+				E91FAE372BB5BF310079EEEA /* VodApiExplorerUITests.xctest */,
+				E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */,
+				E91FAE582BB5C0D10079EEEA /* VodClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91FAE1F2BB5BF2E0079EEEA /* VodApiExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE202BB5BF2E0079EEEA /* VodApiExplorerApp.swift */,
+				E91FAE222BB5BF2E0079EEEA /* ContentView.swift */,
+				E91FAE242BB5BF300079EEEA /* Assets.xcassets */,
+				E91FAE262BB5BF300079EEEA /* Preview Content */,
+			);
+			path = VodApiExplorer;
+			sourceTree = "<group>";
+		};
+		E91FAE262BB5BF300079EEEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE272BB5BF300079EEEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E91FAE302BB5BF310079EEEA /* VodApiExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE312BB5BF310079EEEA /* VodApiExplorerTests.swift */,
+			);
+			path = VodApiExplorerTests;
+			sourceTree = "<group>";
+		};
+		E91FAE3A2BB5BF310079EEEA /* VodApiExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE3B2BB5BF310079EEEA /* VodApiExplorerUITests.swift */,
+				E91FAE3D2BB5BF310079EEEA /* VodApiExplorerUITestsLaunchTests.swift */,
+			);
+			path = VodApiExplorerUITests;
+			sourceTree = "<group>";
+		};
+		E91FAE502BB5C0D10079EEEA /* VodClient */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE512BB5C0D10079EEEA /* VodClient.h */,
+				E91FAE522BB5C0D10079EEEA /* VodClient.docc */,
+				E91FAE762BB5C3950079EEEA /* openapi.yaml */,
+				E91FAE782BB5C3E80079EEEA /* openapi-generator-config.yaml */,
+				E91FAE7B2BB5C5500079EEEA /* VodClient.swift */,
+				E9881DCC2BBE99D2005D8E4C /* Category.swift */,
+				E9881DCF2BBE9B78005D8E4C /* VodDataMappingService.swift */,
+				E928D19C2BBC424D002DDF38 /* VodClientConstants.swift */,
+				E928D1A42BBD4379002DDF38 /* UserAgentHelper.swift */,
+			);
+			path = VodClient;
+			sourceTree = "<group>";
+		};
+		E91FAE5E2BB5C0D10079EEEA /* VodClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91FAE5F2BB5C0D10079EEEA /* VodClientTests.swift */,
+			);
+			path = VodClientTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E91FAE4A2BB5C0D10079EEEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE612BB5C0D10079EEEA /* VodClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E91FAE1C2BB5BF2E0079EEEA /* VodApiExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91FAE412BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorer" */;
+			buildPhases = (
+				E91FAE192BB5BF2E0079EEEA /* Sources */,
+				E91FAE1A2BB5BF2E0079EEEA /* Frameworks */,
+				E91FAE1B2BB5BF2E0079EEEA /* Resources */,
+				E91FAE692BB5C0D10079EEEA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FAE632BB5C0D10079EEEA /* PBXTargetDependency */,
+			);
+			name = VodApiExplorer;
+			productName = VodApiExplorer;
+			productReference = E91FAE1D2BB5BF2E0079EEEA /* VodApiExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91FAE2C2BB5BF300079EEEA /* VodApiExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91FAE442BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorerTests" */;
+			buildPhases = (
+				E91FAE292BB5BF300079EEEA /* Sources */,
+				E91FAE2A2BB5BF300079EEEA /* Frameworks */,
+				E91FAE2B2BB5BF300079EEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FAE2F2BB5BF300079EEEA /* PBXTargetDependency */,
+			);
+			name = VodApiExplorerTests;
+			productName = VodApiExplorerTests;
+			productReference = E91FAE2D2BB5BF300079EEEA /* VodApiExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E91FAE362BB5BF310079EEEA /* VodApiExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91FAE472BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorerUITests" */;
+			buildPhases = (
+				E91FAE332BB5BF310079EEEA /* Sources */,
+				E91FAE342BB5BF310079EEEA /* Frameworks */,
+				E91FAE352BB5BF310079EEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FAE392BB5BF310079EEEA /* PBXTargetDependency */,
+			);
+			name = VodApiExplorerUITests;
+			productName = VodApiExplorerUITests;
+			productReference = E91FAE372BB5BF310079EEEA /* VodApiExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E91FAE4E2BB5C0D10079EEEA /* VodClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91FAE662BB5C0D10079EEEA /* Build configuration list for PBXNativeTarget "VodClient" */;
+			buildPhases = (
+				E91FAE4A2BB5C0D10079EEEA /* Headers */,
+				E91FAE4B2BB5C0D10079EEEA /* Sources */,
+				E91FAE4C2BB5C0D10079EEEA /* Frameworks */,
+				E91FAE4D2BB5C0D10079EEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FAE752BB5C3370079EEEA /* PBXTargetDependency */,
+			);
+			name = VodClient;
+			packageProductDependencies = (
+				E91FAE6F2BB5C26B0079EEEA /* OpenAPIRuntime */,
+				E91FAE722BB5C2B10079EEEA /* OpenAPIURLSession */,
+			);
+			productName = VodClient;
+			productReference = E91FAE4F2BB5C0D10079EEEA /* VodClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E91FAE572BB5C0D10079EEEA /* VodClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91FAE6A2BB5C0D10079EEEA /* Build configuration list for PBXNativeTarget "VodClientTests" */;
+			buildPhases = (
+				E91FAE542BB5C0D10079EEEA /* Sources */,
+				E91FAE552BB5C0D10079EEEA /* Frameworks */,
+				E91FAE562BB5C0D10079EEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91FAE5B2BB5C0D10079EEEA /* PBXTargetDependency */,
+				E91FAE5D2BB5C0D10079EEEA /* PBXTargetDependency */,
+			);
+			name = VodClientTests;
+			productName = VodClientTests;
+			productReference = E91FAE582BB5C0D10079EEEA /* VodClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91FAE152BB5BF2E0079EEEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E91FAE1C2BB5BF2E0079EEEA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E91FAE2C2BB5BF300079EEEA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E91FAE1C2BB5BF2E0079EEEA;
+					};
+					E91FAE362BB5BF310079EEEA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E91FAE1C2BB5BF2E0079EEEA;
+					};
+					E91FAE4E2BB5C0D10079EEEA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E91FAE572BB5C0D10079EEEA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E91FAE1C2BB5BF2E0079EEEA;
+					};
+				};
+			};
+			buildConfigurationList = E91FAE182BB5BF2E0079EEEA /* Build configuration list for PBXProject "VodApiExplorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91FAE142BB5BF2E0079EEEA;
+			packageReferences = (
+				E91FAE6D2BB5C20D0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
+				E91FAE6E2BB5C26B0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
+				E91FAE712BB5C2B10079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+			);
+			productRefGroup = E91FAE1E2BB5BF2E0079EEEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91FAE1C2BB5BF2E0079EEEA /* VodApiExplorer */,
+				E91FAE2C2BB5BF300079EEEA /* VodApiExplorerTests */,
+				E91FAE362BB5BF310079EEEA /* VodApiExplorerUITests */,
+				E91FAE4E2BB5C0D10079EEEA /* VodClient */,
+				E91FAE572BB5C0D10079EEEA /* VodClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91FAE1B2BB5BF2E0079EEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE282BB5BF300079EEEA /* Preview Assets.xcassets in Resources */,
+				E91FAE252BB5BF300079EEEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE2B2BB5BF300079EEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE352BB5BF310079EEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE4D2BB5C0D10079EEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE772BB5C3950079EEEA /* openapi.yaml in Resources */,
+				E91FAE792BB5C3E80079EEEA /* openapi-generator-config.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE562BB5C0D10079EEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91FAE192BB5BF2E0079EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE232BB5BF2E0079EEEA /* ContentView.swift in Sources */,
+				E91FAE212BB5BF2E0079EEEA /* VodApiExplorerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE292BB5BF300079EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE322BB5BF310079EEEA /* VodApiExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE332BB5BF310079EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE3E2BB5BF310079EEEA /* VodApiExplorerUITestsLaunchTests.swift in Sources */,
+				E91FAE3C2BB5BF310079EEEA /* VodApiExplorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE4B2BB5C0D10079EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9881DD02BBE9B78005D8E4C /* VodDataMappingService.swift in Sources */,
+				E928D19D2BBC424D002DDF38 /* VodClientConstants.swift in Sources */,
+				E9881DCD2BBE99D2005D8E4C /* Category.swift in Sources */,
+				E91FAE7C2BB5C5500079EEEA /* VodClient.swift in Sources */,
+				E928D1A52BBD4379002DDF38 /* UserAgentHelper.swift in Sources */,
+				E91FAE532BB5C0D10079EEEA /* VodClient.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91FAE542BB5C0D10079EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91FAE602BB5C0D10079EEEA /* VodClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91FAE2F2BB5BF300079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91FAE1C2BB5BF2E0079EEEA /* VodApiExplorer */;
+			targetProxy = E91FAE2E2BB5BF300079EEEA /* PBXContainerItemProxy */;
+		};
+		E91FAE392BB5BF310079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91FAE1C2BB5BF2E0079EEEA /* VodApiExplorer */;
+			targetProxy = E91FAE382BB5BF310079EEEA /* PBXContainerItemProxy */;
+		};
+		E91FAE5B2BB5C0D10079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91FAE4E2BB5C0D10079EEEA /* VodClient */;
+			targetProxy = E91FAE5A2BB5C0D10079EEEA /* PBXContainerItemProxy */;
+		};
+		E91FAE5D2BB5C0D10079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91FAE1C2BB5BF2E0079EEEA /* VodApiExplorer */;
+			targetProxy = E91FAE5C2BB5C0D10079EEEA /* PBXContainerItemProxy */;
+		};
+		E91FAE632BB5C0D10079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91FAE4E2BB5C0D10079EEEA /* VodClient */;
+			targetProxy = E91FAE622BB5C0D10079EEEA /* PBXContainerItemProxy */;
+		};
+		E91FAE752BB5C3370079EEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E91FAE742BB5C3370079EEEA /* OpenAPIGenerator */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E91FAE3F2BB5BF310079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91FAE402BB5BF310079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91FAE422BB5BF310079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VodApiExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91FAE432BB5BF310079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VodApiExplorer/Preview Content\"";
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E91FAE452BB5BF310079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodApiExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VodApiExplorer";
+			};
+			name = Debug;
+		};
+		E91FAE462BB5BF310079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodApiExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VodApiExplorer";
+			};
+			name = Release;
+		};
+		E91FAE482BB5BF310079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VodApiExplorer;
+			};
+			name = Debug;
+		};
+		E91FAE492BB5BF310079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodApiExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VodApiExplorer;
+			};
+			name = Release;
+		};
+		E91FAE672BB5C0D10079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E91FAE682BB5C0D10079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E91FAE6B2BB5C0D10079EEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodApiExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VodApiExplorer";
+			};
+			name = Debug;
+		};
+		E91FAE6C2BB5C0D10079EEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 269J2W3P7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orange.labs.immersive.VodClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VodApiExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VodApiExplorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91FAE182BB5BF2E0079EEEA /* Build configuration list for PBXProject "VodApiExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE3F2BB5BF310079EEEA /* Debug */,
+				E91FAE402BB5BF310079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91FAE412BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE422BB5BF310079EEEA /* Debug */,
+				E91FAE432BB5BF310079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91FAE442BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE452BB5BF310079EEEA /* Debug */,
+				E91FAE462BB5BF310079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91FAE472BB5BF310079EEEA /* Build configuration list for PBXNativeTarget "VodApiExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE482BB5BF310079EEEA /* Debug */,
+				E91FAE492BB5BF310079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91FAE662BB5C0D10079EEEA /* Build configuration list for PBXNativeTarget "VodClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE672BB5C0D10079EEEA /* Debug */,
+				E91FAE682BB5C0D10079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91FAE6A2BB5C0D10079EEEA /* Build configuration list for PBXNativeTarget "VodClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91FAE6B2BB5C0D10079EEEA /* Debug */,
+				E91FAE6C2BB5C0D10079EEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E91FAE6D2BB5C20D0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-generator.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		E91FAE6E2BB5C26B0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-runtime.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.3.2;
+			};
+		};
+		E91FAE712BB5C2B10079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-openapi-urlsession.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E91FAE6F2BB5C26B0079EEEA /* OpenAPIRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E91FAE6E2BB5C26B0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */;
+			productName = OpenAPIRuntime;
+		};
+		E91FAE722BB5C2B10079EEEA /* OpenAPIURLSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E91FAE712BB5C2B10079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */;
+			productName = OpenAPIURLSession;
+		};
+		E91FAE742BB5C3370079EEEA /* OpenAPIGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E91FAE6D2BB5C20D0079EEEA /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
+			productName = "plugin:OpenAPIGenerator";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E91FAE152BB5BF2E0079EEEA /* Project object */;
+}
