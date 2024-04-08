@@ -33,8 +33,7 @@ public struct VodClient {
             middlewares: [HeadersMiddleware()]
         )
     }
-    //Components.Schemas.CategoryDetailedDTO
-    public func getAllCategories() async throws -> String{
+    public func getAllCategories() async throws -> Components.Schemas.CategoryDetailedDTO{
         let response =  try await client.getCategoryFull(
             path: .init(
                 version: VodClientConstants.versionKey,
@@ -45,7 +44,7 @@ public struct VodClient {
         case let .ok(okResponse):
             switch okResponse.body {
             case .json(let categoryDetailedDTO):
-                return categoryDetailedDTO.name
+                return categoryDetailedDTO
             }
         default:
             throw "Failed to fetch categories"

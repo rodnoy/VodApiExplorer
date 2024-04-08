@@ -51,7 +51,9 @@ extension ContentView {
         func getCatalog() async {
             self.fetchPhase = .loading
             do {
-                let text = try await categoriesClient.getAllCategories()
+                let categoriesDTO = try await categoriesClient.getAllCategories()
+                let category = VodDataMappingAssistant().mapCategoryDTOToCategory(dto: categoriesDTO)
+                let text = category.name
                 self.fetchPhase = .success(text)
             }
             catch {

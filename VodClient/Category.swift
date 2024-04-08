@@ -7,39 +7,8 @@
 
 import Foundation
 
-// Enum для advisory
-//enum VodAdvisory: String, Codable {
-//    case pg
-//    case pg13
-//    case r
-//    case nc17
-//}
 
-// Enum для жанров
-//enum Genre: String, Codable {
-//    case action
-//    case drama
-//    case comedy
-//    case horror
-//}
-
-// Enum для статуса
-enum VodStatus: String, Codable {
-    case prospected
-    case programmed
-    case published
-    case removed
-}
-
-// Enum для типа видео
-//enum VideoType: String, Codable {
-//    case feature
-//    case short
-//    case series
-//}
-
-// Enum для CSA (рейтинг)
-enum CSA: String, Codable {
+public enum VodCSA: String, Codable {
     case csa1
     case csa2
     case csa3
@@ -47,54 +16,108 @@ enum CSA: String, Codable {
     case csa5
 }
 
-
-
-// Структура для статьи
-struct VodArticle: Identifiable, Codable {
-    var id: String
-    var title: String
-    var csa: CSA
-    var advisory: VodAdvisory
-    var productionYear: Int
-    var images: [VodImage]
-    var superGenres: [String]
-//    var links: [VodLink]
-    var price: Double
-    var status: VodStatus
-    var trailers: [URL]
-    var duration: Int // Длительность в минутах
-    var type: VodContentType
-    var covers: [VodImage]
-    var videoType: VodVideoType
+public struct VodArticle: Identifiable, Codable {
+    public let id: String
+    public let title: String
+    public let synopsis: String?
+    public let csa: VodCSA
+    public let advisory: VodAdvisory
+    public let productionYear: Int
+    public let images: [VodImage]
+    public let superGenres: [String]
+    public let price: Double
+    public let status: VodStatus
+    public let trailers: [URL]
+    public let duration: Int
+    public let type: VodContentType
+    public let covers: [VodImage]
+    public let videoType: VodVideoType
+    public init(id: String, title: String, synopsis: String?, csa: VodCSA, advisory: VodAdvisory, productionYear: Int, images: [VodImage], superGenres: [String], price: Double, status: VodStatus, trailers: [URL], duration: Int, type: VodContentType, covers: [VodImage], videoType: VodVideoType) {
+        self.id = id
+        self.title = title
+        self.synopsis = synopsis
+        self.csa = csa
+        self.advisory = advisory
+        self.productionYear = productionYear
+        self.images = images
+        self.superGenres = superGenres
+        self.price = price
+        self.status = status
+        self.trailers = trailers
+        self.duration = duration
+        self.type = type
+        self.covers = covers
+        self.videoType = videoType
+    }
+//    public init(id: String, title: String, csa: VodCSA, advisory: VodAdvisory, productionYear: Int, images: [VodImage], superGenres: [String], price: Double, status: VodStatus, trailers: [URL], duration: Int, type: VodContentType, covers: [VodImage], videoType: VodVideoType) {
+//        self.id = id
+//        self.title = title
+//        self.csa = csa
+//        self.advisory = advisory
+//        self.productionYear = productionYear
+//        self.images = images
+//        self.superGenres = superGenres
+//        self.price = price
+//        self.status = status
+//        self.trailers = trailers
+//        self.duration = duration
+//        self.type = type
+//        self.covers = covers
+//        self.videoType = videoType
+//    }
+}
+public enum VodStatus: String, Codable {
+    case prospected
+    case programmed
+    case published
+    case removed
+}
+public struct VodLink: Codable {
+    public let link: URL?
+    public let catalogId: String?
+    public init(link: URL?, catalogId: String?) {
+        self.link = link
+        self.catalogId = catalogId
+    }
 }
 
-// Структура для категории
-struct VodCategory: Identifiable, Codable {
-    var id: String
-    var title: String
-    var name: String
-    var advisory: VodAdvisory
-    var images: [VodImage]
-    var catalogID: String
-    var articles: [VodArticle]
-    var covers: [VodImage]
-    var superGenres: [String]
-    var highlights: [VodArticle]
+public struct VodCategory: Identifiable, Codable {
+    public let id: String
+    public let title: String
+    public let name: String
+    public let advisory: VodAdvisory
+    public let images: [VodImage]
+    public let catalogID: String
+    public let articles: [VodArticle]
+    public let covers: [VodImage]
+    public let superGenres: [String]
+    public let highlights: [VodArticle]
+    
+    public init(id: String, title: String, name: String, advisory: VodAdvisory, images: [VodImage], catalogID: String, articles: [VodArticle], covers: [VodImage], superGenres: [String], highlights: [VodArticle]) {
+        self.id = id
+        self.title = title
+        self.name = name
+        self.advisory = advisory
+        self.images = images
+        self.catalogID = catalogID
+        self.articles = articles
+        self.covers = covers
+        self.superGenres = superGenres
+        self.highlights = highlights
+    }
+}
+
+public struct VodImage: Codable {
+    public let format: VodImageFormat
+    public let url: URL
+    public init(format: VodImageFormat, url: URL) {
+        self.format = format
+        self.url = url
+    }
 }
 
 
-
-struct VodImage: Codable {
-    var format: ImageFormat
-    var url: URL
-}
-
-struct VodLink: Codable {
-    var link: URL?
-    var catalogId: String?
-}
-
-enum VodContentType: String, Codable {
+public enum VodContentType: String, Codable {
     case video
     case series
     case season
@@ -107,17 +130,17 @@ enum VodContentType: String, Codable {
     case menu
     case application
 }
-enum VodVideoType: String, Codable {
+public enum VodVideoType: String, Codable {
     case movie
     case episod
 }
-enum VodAdvisory: String, Codable {
+public enum VodAdvisory: String, Codable {
     case allPublic
     case charm
     case adult
 }
 
-enum ImageFormat: String, Codable {
+public enum VodImageFormat: String, Codable {
     case background
     case cover
     case banner_1

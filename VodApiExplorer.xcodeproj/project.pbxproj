@@ -29,6 +29,7 @@
 		E928D1A52BBD4379002DDF38 /* UserAgentHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E928D1A42BBD4379002DDF38 /* UserAgentHelper.swift */; };
 		E9881DCD2BBE99D2005D8E4C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9881DCC2BBE99D2005D8E4C /* Category.swift */; };
 		E9881DD02BBE9B78005D8E4C /* VodDataMappingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9881DCF2BBE9B78005D8E4C /* VodDataMappingService.swift */; };
+		E9AAE6F12BDAF30B00E2ED67 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAE6F02BDAF30B00E2ED67 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		E928D1A42BBD4379002DDF38 /* UserAgentHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentHelper.swift; sourceTree = "<group>"; };
 		E9881DCC2BBE99D2005D8E4C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E9881DCF2BBE9B78005D8E4C /* VodDataMappingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodDataMappingService.swift; sourceTree = "<group>"; };
+		E9AAE6F02BDAF30B00E2ED67 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			children = (
 				E91FAE202BB5BF2E0079EEEA /* VodApiExplorerApp.swift */,
 				E91FAE222BB5BF2E0079EEEA /* ContentView.swift */,
+				E9AAE6F02BDAF30B00E2ED67 /* RatingView.swift */,
 				E91FAE242BB5BF300079EEEA /* Assets.xcassets */,
 				E91FAE262BB5BF300079EEEA /* Preview Content */,
 			);
@@ -450,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AAE6F12BDAF30B00E2ED67 /* RatingView.swift in Sources */,
 				E91FAE232BB5BF2E0079EEEA /* ContentView.swift in Sources */,
 				E91FAE212BB5BF2E0079EEEA /* VodApiExplorerApp.swift in Sources */,
 			);
